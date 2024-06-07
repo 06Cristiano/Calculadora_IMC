@@ -1,14 +1,17 @@
+import java.util.Locale;
+import java.util.Scanner;
+/**Atualização com interação com terminal */
 public class CalculadoraIMC {
-
-@autor Cristiano Barbosa
-
+@SuppressWarnings("resource")
 public static void main (String[] args) {
 
-    double alturaCentimetro;
-    double peso;
+    Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-    alturaCentimetro = 1.75;
-    peso = 85.0;
+    System.out.println("Digite sua altura(ex: 1.65)");
+    double alturaCentimetro = scanner.nextDouble();
+
+    System.out.println("Digite seu peso(Ex:70)");
+    double peso = scanner.nextDouble();
 
     double totalPeso = alturaCentimetro*alturaCentimetro;
     double total = peso/totalPeso;
