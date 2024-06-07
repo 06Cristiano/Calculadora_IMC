@@ -1,5 +1,6 @@
 public class CalculadoraIMC {
 
+@autor Cristiano Barbosa
 
 public static void main (String[] args) {
 
@@ -40,6 +41,7 @@ public static void main (String[] args) {
 }
 }
 
-//Meu primeiro projeto solo em JAVA, após ler e estudar um livro sobre a linguagem nas primeiras lições 
-//tinha como sugestão fazer essa calculadora; não copiei código de nenhum lugar, apenas coloquei em pratica
-//o que eu tinha aprendido.
+/* Meu primeiro projeto solo em JAVA, após ler e estudar um livro sobre a linguagem nas primeiras lições 
+ * tinha como sugestão fazer essa calculadora; não copiei código de nenhum lugar, apenas coloquei em pratica
+ * o que eu tinha aprendido.
+ */
